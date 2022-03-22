@@ -1,0 +1,49 @@
+/* Dark */
+.navbar {
+    background: #79C4F2;
+  }
+  
+  /* Emphasis */
+  .btn {
+    background: #D99441;
+  }
+  .jumbotron{
+    background: #F2CB05;
+    }
+  
+  /* Light */
+  body {
+    background: #F2F2F2;
+  }
+  
+  .table {
+    font-size: 90%;
+  }
+  
+  /* Transform! */
+  @media (max-width: 990px) {
+    /* Dark */
+    .navbar {
+      background: #A1BF73;
+    }
+  
+    /* Emphasis */
+    .jumbotron{
+      background: #6A8C37;
+      }
+  
+    .btn {
+      background: #BF7D2C;
+    }
+    
+    /* Light */
+    .table {
+      color:#A0C3D9;
+      font-size: 85%;
+    }
+  
+    body {
+    background: #59253D;
+    color: #A0C3D9;
+    font-size: 90%;
+    }
